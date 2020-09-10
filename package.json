@@ -1,0 +1,21 @@
+{
+  "name": "myfirstpackage",
+  "version": "1.0.0",
+  "description": "this is my first webpack package",
+  "main": "index.js",
+  "scripts": {
+    "dev": "Webpack --mode none",
+    "prod": "Webpack --mode prod",
+    "webpackserve": "Webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.4.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.11.0"
+  }
+}
