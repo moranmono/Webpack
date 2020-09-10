@@ -12,7 +12,8 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'my web pack plugin'
+            title: 'my web pack plugin',
+            templateContent: '<div id="root"></div>'
         })
     ]
 }
