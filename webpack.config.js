@@ -10,6 +10,11 @@ module.exports = {
         contentBase: path.join(__dirname, '/public'),
         open: 'chrome'
     },
+    module: {
+        rules: [
+            {test: /\.js$/, use: 'babel-loader'}
+        ]
+    },
     plugins: [
         new HtmlWebpackPlugin({
             title: 'my web pack plugin',
