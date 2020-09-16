@@ -3,7 +3,7 @@
 //import to webpack
 import React from 'react'
 import ReactDOM from 'react-dom'
-import 'style.scss'
+import './style.scss'
 
 const root = document.querySelector('#root');
 const Component = () => <div>Hello</div>
